@@ -1,0 +1,1104 @@
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+li,
+ul,
+ol {
+    font-family: "Roboto", sans-serif !important;
+}
+
+#btbanner {
+    background-color: #0b415a;
+    height: 594px;
+}
+
+.btbreadcrumbs {
+    margin: 0 0 52px 0;
+    padding: 20px 0 0 0;
+    color: #9db3bd;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    width: 550px;
+}
+
+.btbreadcrumbs a {
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 5px;
+    line-height: 14px;
+    color: #9db3bd;
+    text-decoration: none;
+}
+
+.btbreadcrumbs .last-list {
+    pointer-events: none;
+    opacity: 1;
+    color: #ffffff;
+}
+
+section#btbanner h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.btoutreviews {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    width: 111px;
+    height: 32px;
+    border: 1px solid #00b8f6;
+    border-radius: 4px;
+    margin-bottom: 28px;
+}
+
+.btoutleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 2px;
+    width: 58px;
+    height: 32px;
+    background: #00b8f6;
+    border-radius: 4px;
+}
+
+.btoutright {
+    width: 48px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btoutleft p {
+    width: 32px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btoutleft i {
+    color: #ffffff;
+}
+
+.btoutright p {
+    width: 48px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btbannerpara {
+    margin-bottom: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+
+.btbanenroll {
+    width: 68px;
+    height: 16px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.btbanbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 267px;
+    height: 40px;
+}
+
+.btdownsec {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 15px;
+    gap: 10px;
+    width: 151px;
+    height: 40px;
+    border: 1px solid #00b8f6;
+    border-radius: 0px 4px 4px 4px;
+}
+
+.btenrolsec {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+    background: #00b8f6;
+    border-radius: 0px 4px 4px 4px;
+}
+
+.btbandownsyllabus {
+    width: 119px;
+    text-decoration: none;
+    height: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00b8f6;
+}
+
+/* .btrightbg {
+    top: 456.79px;
+    left: 923px;
+    transform: rotate(-62.77deg);
+    width: 394.5px;
+    height: 375.24px;
+    position: absolute;
+    background: #1A5BEC;
+    border-radius: 0px 250px 250px 250px;
+} */
+
+.btytsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 23px;
+    position: relative;
+    top: 24px;
+}
+
+.btrightbg img {
+    position: absolute;
+    right: 40px;
+    top: 64px;
+}
+
+.btrightbg {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.btcallbanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+
+    width: 273px;
+    height: 61px;
+
+    background: #ffffff;
+    border: 3px solid #00b8f6;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.btlefttext {
+    width: 32px;
+    height: 32px;
+}
+
+.wpimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 81px;
+    height: 81px;
+}
+
+.btytdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 370px;
+    height: 81px;
+}
+
+.btrighttext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 142px;
+    height: 37px;
+}
+
+.btrighttext p {
+    width: 127px;
+    height: 19px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00b8f6;
+}
+
+.btrighttext b {
+    width: 142px;
+    height: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #00b8f6;
+}
+
+.btsecslider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 54px 32px 40px;
+    gap: 10px;
+    background: #ffffff;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.btbannerslide {
+    padding: 0px;
+    margin-top: -92px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.08));
+}
+
+.btbantopslide {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px 40px;
+    gap: 10px;
+    height: 92px;
+    background: #0d5b75;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.btbantopslide h3 {
+    width: 1064px;
+    height: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #f7faff;
+}
+
+.btslash {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    opacity: 0.5;
+    padding: 0px 5px;
+}
+
+.brpartermain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.partnerinner {
+    white-space: nowrap;
+    margin: 0;
+    will-change: transform;
+    animation: marquee 45s linear infinite;
+}
+
+.btreeparterli {
+    list-style: none;
+    width: auto;
+    float: left;
+    padding-right: 32px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+section#btkeyhiglights h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+section#btkeyhiglights {
+    margin: 80px 0 52px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+}
+
+.keymain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.keyinnermain {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+
+.keyhighinner {
+    width: 177px;
+    height: 69px;
+}
+
+.keyicon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 24px;
+    height: 24px;
+    left: 387px;
+    top: 0px;
+}
+
+.keytextmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 12px 24px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 168px;
+    height: 58px;
+    left: 396px;
+    top: 11px;
+    background: #ffffff;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-top: -13px;
+}
+
+.keyicon img {
+    margin-left: -10px;
+}
+
+.keytext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+    width: 112px;
+    height: 34px;
+}
+
+.keytext b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1a5bec;
+}
+
+.keytext p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.btallreviews {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 97px;
+    gap: 16px;
+    height: 118px;
+}
+
+.btgooglemain {
+    width: 274px;
+    height: 118px;
+}
+
+.btgoogleinner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 274px;
+    position: relative;
+    height: 118px;
+    background: #e3ecff;
+    border: 1px solid #1a5bec;
+    border-radius: 0px 16px 16px 16px;
+}
+
+.btgooglebox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 18px;
+    width: 236px;
+    height: 94px;
+}
+
+.btgoogletop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 2px;
+    width: 58px;
+    height: 32px;
+    background: #34a853;
+    border-radius: 4px;
+}
+
+.btgooglebottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 236px;
+    height: 44px;
+}
+
+.btgoogletextleft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 32px;
+    height: 24px;
+}
+
+.btgoogletextleft p {
+    width: 32px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btgooglestarright {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.btgooglelink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.3333px;
+    gap: 18.33px;
+    width: 44px;
+    height: 44px;
+}
+
+.btgooglelink img {
+    width: 32.36px;
+    height: 33px;
+}
+
+.btgooglebottom p {
+    width: 176px;
+    height: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.btsulekhamain {
+    width: 274px;
+    height: 118px;
+}
+
+.btsulekhainner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 274px;
+    position: relative;
+    height: 118px;
+    background: #e3ecff;
+    border: 1px solid #1a5bec;
+    border-radius: 0px 16px 16px 16px;
+}
+
+.btsulekhabox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 18px;
+    width: 236px;
+    height: 94px;
+}
+
+.btsulekhatop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 2px;
+    width: 58px;
+    height: 32px;
+    background: #dc0009;
+    border-radius: 4px;
+}
+
+.btsulekhabottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 236px;
+    height: 44px;
+}
+
+.btsulekhatextleft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 32px;
+    height: 24px;
+}
+
+.btsulekhatextleft p {
+    width: 32px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btsulekhastarright {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.btsulekhalink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.3333px;
+    gap: 18.33px;
+    width: 44px;
+    height: 44px;
+}
+
+.btsulekhalink img {
+    width: 32.36px;
+    height: 33px;
+}
+
+.btsulekhabottom p {
+    width: 176px;
+    height: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.btjustdialmain {
+    width: 274px;
+    height: 118px;
+}
+
+.btjustdialinner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    position: relative;
+    gap: 16px;
+    width: 274px;
+    height: 118px;
+    background: #e3ecff;
+    border: 1px solid #1a5bec;
+    border-radius: 0px 16px 16px 16px;
+}
+
+.btjustdialbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 18px;
+    width: 236px;
+    height: 94px;
+}
+
+.btjustdialtop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 2px;
+    width: 58px;
+    height: 32px;
+    background: #1176ba;
+    border-radius: 4px;
+}
+
+.btjustdialbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 236px;
+    height: 44px;
+}
+
+.btjustdialtextleft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 32px;
+    height: 24px;
+}
+
+.btjustdialtextleft p {
+    width: 32px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btjustdialstarright {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.btjustdiallink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.3333px;
+    gap: 18.33px;
+    width: 44px;
+    height: 44px;
+}
+
+.btjustdiallink img {
+    width: 32.36px;
+    height: 33px;
+}
+
+.btjustdialbottom p {
+    width: 176px;
+    height: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+section#btoverview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 33px;
+}
+
+.overtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 33px;
+    padding: 0px;
+    gap: 4px;
+    width: 58px;
+    height: 16px;
+}
+
+.overtitle h3 {
+    width: 58px;
+    height: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.btovermain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42px;
+    width: 661px;
+    height: 636px;
+}
+
+.btovertop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+    width: 661px;
+    height: 148px;
+}
+
+.btoverbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 10px;
+    width: 661px;
+    background: #f7faff;
+}
+
+.btovertop h3 {
+    width: 661px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.btovertop p {
+    width: 661px;
+    height: 78px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.btoverwhat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    border-radius: 36px;
+}
+
+.btoverwhat h4 {
+    width: 597px;
+    height: 42px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #2a2a2a;
+}
+
+.btovertick {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 597px;
+}
+
+.btoverul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.btoverli {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 403px;
+    height: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.btgoogleinner::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: #1a5bec;
+    border-radius: 0px 50px 50px 50px;
+    left: 15px;
+}
+
+.btgoogleinner::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #1a5bec;
+    border-radius: 0px 50px 50px 50px;
+    left: 0px;
+    top: 0px;
+}
+
+.btsulekhainner::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #00b8f6;
+    border-radius: 0px 50px 50px 50px;
+    left: 0px;
+    top: 0px;
+}
+.btjustdialinner::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #8ae7f9;
+    border-radius: 0px 50px 50px 50px;
+    left: 0px;
+    top: 0px;
+}
+
+.btcareermain {
+    padding-top: 68px;
+    padding-bottom: 38px;
+}
+
+.btcareerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    width: 564px;
+}
+
+section#btcareer {
+    background: #8AE7F9;
+}
+
+.btcareerleft h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+}
+
+.btcareerleftbottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 564px;
+}
+
+.btcareerleftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 274px;
+}
+
+.btcareerrightside
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 274px;
+}
+
+.careersal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 274px;
+}
+
+
+.careersal h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0F3487;
+    margin: 0;
+}
+
+.careersal p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0;
+}
